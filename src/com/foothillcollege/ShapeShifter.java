@@ -2,6 +2,9 @@ package com.foothillcollege;
 
 public class ShapeShifter {
     public static void main(String[] args) {
+
+        // Primary Shapes
+
         System.out.println("Vertical Line:");
         drawVerticalLine();
         System.out.println();
@@ -26,6 +29,8 @@ public class ShapeShifter {
         drawDownTriangle();
         System.out.println();
 
+        // Complex Shapes
+
         System.out.println("House:");
         drawUpTriangle();
         drawRectangle();
@@ -36,6 +41,20 @@ public class ShapeShifter {
         drawUpTriangle();
         System.out.println();
 
+        // Created by Bryan Madrigal
+        System.out.println("Dumbbell:");
+        drawRectangle();
+        drawVerticalLine();
+        drawRectangle();
+        System.out.println();
+
+        // Created by: Chris Payne
+        System.out.println("Arrow:");
+        drawUpTriangle();
+        drawVerticalLine();
+        drawVerticalLine();
+        drawHorizontalLine();
+        drawUpTriangle();
 
     }
 
